@@ -116,6 +116,8 @@ a {
     letter-spacing: 0.02em;
     color: var(--type-color);
     display: block;
+    transition: color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-studio {
@@ -151,6 +153,7 @@ a {
 .site-nav .link-info:hover {
     color: var(--additional-color);
     background-color: transparent;
+
 }
 
 /*Phone*/
@@ -159,6 +162,9 @@ a {
     height: 16px;
     margin-right: 10px;
     fill: var(--mini-calor);
+    transition: fill 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .mail {
@@ -166,6 +172,8 @@ a {
     height: 12px;
     margin-right: 10px;
     fill: var(--mini-calor);
+    transition: fill 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link1 {
@@ -177,6 +185,8 @@ a {
     align-items: center;
     text-decoration: none;
     display: flex;
+    transition: color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*Contacts*/
@@ -201,6 +211,7 @@ a {
 }
 
 .link1:hover {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     color: var(--additional-color);
 }
 
@@ -245,6 +256,8 @@ a {
     font-weight: 700;
     height: 48px;
     width: 200px;
+    transition: background-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -280,8 +293,8 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    min-width: 400px;
-    min-height: 400px;
+    min-width: 528px;
+    min-height: 581px;
     background-color: white;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -296,8 +309,8 @@ a {
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     justify-content: center;
     align-items: center;
     padding: 0;
@@ -324,6 +337,11 @@ a {
     left: 0;
     width: 70px;
 
+}
+
+.close-icon {
+    width: 11px;
+    height: 11px;
 }
 
 /*Feature-list*/
@@ -495,6 +513,8 @@ a {
     height: 44px;
     background-color: white;
     border-radius: 50%;
+    transition: background-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media-items:not(:last-child) {
@@ -513,6 +533,8 @@ a {
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
+    transition: background-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*Card-set*/
@@ -599,17 +621,22 @@ a {
     align-items: center;
     height: 90px;
     width: 170px;
+    transition: fill 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-list .clients-photo-1 {
     width: 42px;
     height: 46px;
     fill: #AFB1B8;
+    transition: fill 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-box:hover,
 .clients-focus {
     border: 1px solid #2196f3;
+
 }
 
 .clients-link:hover .clients-photo-1,
@@ -621,50 +648,64 @@ a {
     width: 40px;
     height: 52px;
     fill: #AFB1B8;
+    transition: fill 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover .clients-photo-2,
 .clients-link:focus .clients-photo-2 {
     fill: var(--additional-color);
+
 }
 
 .clients-list .clients-photo-3 {
     width: 44px;
     height: 41px;
     fill: #AFB1B8;
+    transition: fill 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover .clients-photo-3,
 .clients-link:focus .clients-photo-3 {
     fill: var(--additional-color);
+
 }
 
 .clients-list .clients-photo-4 {
     width: 84px;
     height: 40px;
     fill: #AFB1B8;
+    transition: fill 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover .clients-photo-4,
 .clients-link:focus .clients-photo-4 {
     fill: var(--additional-color);
+
 }
 
 .clients-list .clients-photo-5 {
     width: 62px;
     height: 45px;
     fill: #AFB1B8;
+    transition: fill 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover .clients-photo-5,
 .clients-link:focus .clients-photo-5 {
     fill: var(--additional-color);
+
 }
 
 .clients-list .clients-photo-6 {
     width: 94px;
     height: 44px;
     fill: #AFB1B8;
+    transition: fill 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -715,6 +756,8 @@ footer {
     letter-spacing: 0.03em;
     color: #FFFFFF;
     flex-direction: column;
+    transition: color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .phone-mail {
@@ -726,10 +769,13 @@ footer {
     color: rgba(255, 255, 255, 0.6);
     flex-direction: column;
     margin-bottom: 9px;
+    transition: color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .information a:hover {
     color: var(--additional-color);
+
 }
 
 /*Дополнительный Адресс*/
@@ -766,6 +812,8 @@ footer {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     margin-right: 10px;
+    transition: background-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-items:last-child {
@@ -777,6 +825,8 @@ footer {
     width: 20px;
     height: 20px;
     fill: white;
+    transition: background-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-items:hover,
@@ -784,4 +834,5 @@ footer {
 .address-icons:hover,
 .address-icons:focus {
     background-color: var(--additional-color);
+
 }
